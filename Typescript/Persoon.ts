@@ -15,6 +15,7 @@ export class Persoon{
         console.log('\n\tNieuw Persoon-object aangemaakt.');
         console.log('\tDe property naam is ' + this.naam);
     }
+    
     // opgave 8:
     public getGeslacht(): string{
         return this.geslacht;
