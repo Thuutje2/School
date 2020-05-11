@@ -25,13 +25,13 @@ export class Persoon{
     }
     
     // opgave 9:
-        public setLeeftijd(leeftijd: number): void{
-            this.leeftijd = leeftijd;
-        }
+    public setLeeftijd(leeftijd: number): void{
+        this.leeftijd = leeftijd;
+     }
        
-        public getLeeftijd(): number{
-            return this.leeftijd;
-        }
+    public getLeeftijd(): number{
+        return this.leeftijd;
+    }
 
     // Lab 03:  
     public setNaam(naam: string): void{
