@@ -15,7 +15,7 @@ export class Persoon{
         console.log('\n\tNieuw Persoon-object aangemaakt.');
         console.log('\tDe property naam is ' + this.naam);
     }
-    
+
     // opgave 8:
     public getGeslacht(): string{
         return this.geslacht;
@@ -33,7 +33,7 @@ export class Persoon{
             return this.leeftijd;
         }
 
-    // Lab 03: Encapsulation:
+    // Lab 03:  
     public setNaam(naam: string): void{
         this.naam = naam;
     }
@@ -57,7 +57,7 @@ export class Persoon{
     }
    
   
-    // opgave 11 getGegevens():
+    // opgave 11:
     public getGegevens(): string {
         let gegevens: string =
         "\n\tDe gegevens van " + this.naam + " zijn: \n" +
@@ -66,14 +66,14 @@ export class Persoon{
         return gegevens;
     }
 
-    // opgave 12 toString():
+    // opgave 12:
     public toString(): string{
         return ("\tDe gegevens van " + this.naam + " zijn: \n" +
         "\tLeeftijd: "  + this.leeftijd + "\n" +
         "\tGeslacht: " + this.geslacht+ "\n");
     }
 
-    // Lab 04 Json gegevensOpslaan():
+    // Lab 04:
     public gegevensOpslaan(): object{
         let persoonsgegevens: object = {"Naam": this.naam, "Leeftijd": this.leeftijd,
     "Geslacht": this.geslacht,"Is Student": this.isStudent , "Gemiddeld Cijfer": this.gemiddeldCijfer};
