@@ -9,12 +9,12 @@ class SuperClass{
     public getAchternaam(): string{
         return this.achternaam;
     }
-    // public moet eigenlijk private zijn in dit geval.
+   
    public getCreditCard():string{
         return this.creditcard;
     }
 
-    // console.log("Shireens' CC-type: " + shireen.getCreditCard());
+    
     
 }
 class SubClass extends SuperClass{
