@@ -17,20 +17,20 @@ console.log("\n\tDe leeftijd van Thamara is: ", thamara.getLeeftijd());
 console.log(thamara.getGegevens());
 console.log(demirel.getGegevens());
 // lab 04:
-Thuja.setGemiddeldCijfer(10);
+Thuja.setGemiddeldCijfer(8);
 Thuja.setIsStudent(true);
 umut.setGemiddeldCijfer(5);
 umut.setIsStudent(true);
-thamara.setGemiddeldCijfer(10);
+thamara.setGemiddeldCijfer(7);
 thamara.setIsStudent(true);
-demirel.setGemiddeldCijfer(0);
+demirel.setGemiddeldCijfer(2);
 demirel.setIsStudent(false);
 var persoonsgegevens = [];
 persoonsgegevens.push(JSON.stringify(thamara.gegevensOpslaan()));
 persoonsgegevens.push(JSON.stringify(umut.gegevensOpslaan()));
 persoonsgegevens.push(JSON.stringify(Thuja.gegevensOpslaan()));
 persoonsgegevens.push(JSON.stringify(demirel.gegevensOpslaan()));
-// voor elk persoon-element, toon element
+// voor elk persoon-element 
 persoonsgegevens.forEach(function (gegevens) {
     console.log("\n\t", gegevens);
 });
