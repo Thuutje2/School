@@ -5,7 +5,7 @@ var Persoon_1 = require("./Persoon");
 var umut = new Persoon_1.Persoon('Umut', 18, 'M');
 var demirel = new Persoon_1.Persoon('Demirel', 19, 'M');
 // lab 01: 
-var Thuja = new Persoon_1.Persoon('Thuja', 17, 'W');
+var Thuja = new Persoon_1.Persoon('Thuja', 17, 'V');
 var thamara = new Persoon_1.Persoon('Thamara', 18, 'V');
 // opgave 10:
 demirel.setLeeftijd(24);
@@ -17,13 +17,13 @@ console.log("\n\tDe leeftijd van Thamara is: ", thamara.getLeeftijd());
 console.log(thamara.getGegevens());
 console.log(demirel.getGegevens());
 // lab 04:
-Thuja.setGemiddeldCijfer(10);
+Thuja.setGemiddeldCijfer(8);
 Thuja.setIsStudent(true);
 umut.setGemiddeldCijfer(5);
 umut.setIsStudent(true);
-thamara.setGemiddeldCijfer(10);
+thamara.setGemiddeldCijfer(7);
 thamara.setIsStudent(true);
-demirel.setGemiddeldCijfer(0);
+demirel.setGemiddeldCijfer(2);
 demirel.setIsStudent(false);
 var persoonsgegevens = [];
 persoonsgegevens.push(JSON.stringify(thamara.gegevensOpslaan()));

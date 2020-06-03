@@ -22,7 +22,7 @@ export class User extends Persoon {
         }else if(this.geslacht ==="V"){
             console.log("\n\tGeachte Mevrouw!");
         } else{
-            console.log("\n\tGeachte Alien?!");
+            console.log("\n\tGeachte ");
         }
     }
     public setEmail(e_mail: string): void {

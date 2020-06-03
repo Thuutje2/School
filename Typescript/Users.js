@@ -32,7 +32,7 @@ var User = /** @class */ (function (_super) {
             console.log("\n\tGeachte Mevrouw!");
         }
         else {
-            console.log("\n\tGeachte Alien?!");
+            console.log("\n\tGeachte ");
         }
         return _this;
     }

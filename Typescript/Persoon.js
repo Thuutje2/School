@@ -25,7 +25,7 @@ var Persoon = /** @class */ (function () {
     Persoon.prototype.getLeeftijd = function () {
         return this.leeftijd;
     };
-    // Lab 03: Encapsulation:
+    // Lab 03:  
     Persoon.prototype.setNaam = function (naam) {
         this.naam = naam;
     };
@@ -44,20 +44,20 @@ var Persoon = /** @class */ (function () {
     Persoon.prototype.getGemiddeldCijfer = function () {
         return this.gemiddeldCijfer;
     };
-    // opgave 11 getGegevens():
+    // opgave 11:
     Persoon.prototype.getGegevens = function () {
         var gegevens = "\n\tDe gegevens van " + this.naam + " zijn: \n" +
             "\tLeeftijd: " + this.leeftijd + "\n" +
             "\tGeslacht: " + this.geslacht + "\n";
         return gegevens;
     };
-    // opgave 12 toString():
+    // opgave 12:
     Persoon.prototype.toString = function () {
         return ("\tDe gegevens van " + this.naam + " zijn: \n" +
             "\tLeeftijd: " + this.leeftijd + "\n" +
             "\tGeslacht: " + this.geslacht + "\n");
     };
-    // Lab 04 Json gegevensOpslaan():
+    // Lab 04:
     Persoon.prototype.gegevensOpslaan = function () {
         var persoonsgegevens = { "Naam": this.naam, "Leeftijd": this.leeftijd,
             "Geslacht": this.geslacht, "Is Student": this.isStudent, "Gemiddeld Cijfer": this.gemiddeldCijfer };

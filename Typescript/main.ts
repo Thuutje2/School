@@ -21,13 +21,13 @@ console.log(thamara.getGegevens());
 console.log(demirel.getGegevens());
 
 // lab 04:
-Thuja.setGemiddeldCijfer(10);
+Thuja.setGemiddeldCijfer(8);
 Thuja.setIsStudent(true);
 umut.setGemiddeldCijfer(5);
 umut.setIsStudent(true);
-thamara.setGemiddeldCijfer(10);
+thamara.setGemiddeldCijfer(7);
 thamara.setIsStudent(true);
-demirel.setGemiddeldCijfer(0);
+demirel.setGemiddeldCijfer(2);
 demirel.setIsStudent(false);
 
 
