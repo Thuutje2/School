@@ -24,7 +24,8 @@ var MyShoppingcart = /** @class */ (function (_super) {
         console.log("Product Omschrijving \t Prijs \t Aantal\n");
         this.itemList.forEach(function (item) {
             console.log(item.getID() + "\t" + item.getOmschrijving() + "\t" +
-                item.getPrijs() + "\t" + item.getAantal() + "\n");
+                item.getPrijs() + "\t" + item.getAantal() + "\t" +
+                item.getTotaal());
         });
     };
     return MyShoppingcart;

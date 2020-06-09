@@ -25,6 +25,13 @@ var Item = /** @class */ (function () {
     Item.prototype.setAantal = function (aantal) {
         this.aantal = aantal;
     };
+    //lab 06
+    Item.prototype.setTotaal = function (totaal) {
+        this.totaal = totaal;
+    };
+    Item.prototype.getTotaal = function () {
+        return (this.aantal * this.prijs);
+    };
     return Item;
 }());
 exports.Item = Item;

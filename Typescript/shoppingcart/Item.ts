@@ -5,6 +5,7 @@ export class Item {
     private model: string;
     private prijs: number;
     private aantal: number;
+    private totaal: number;
 
     // constructor
     constructor(id: string, merk: string, model: string, prijs: number, aantal: number){
@@ -28,5 +29,13 @@ export class Item {
     }
     public setAantal(aantal: number): void {
         this.aantal = aantal;
+    }
+    
+    //lab 06
+     public setTotaal(totaal: number): void{
+        this.totaal = totaal;
+    }
+    public getTotaal(): number{
+        return(this.aantal * this.prijs);
     }
 }
