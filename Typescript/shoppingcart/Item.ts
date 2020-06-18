@@ -38,4 +38,15 @@ export class Item {
     public getTotaal(): number{
         return(this.aantal * this.prijs);
     }
+    //lab 07
+    public setPrijs(prijs: number): number {
+        if(this.prijs >= 1 && prijs <= 10){
+        return this.prijs;
+        
+       } else{
+         throw new Error("\n De prijs is niet correct");
+       }
+     }
 }
+
+  

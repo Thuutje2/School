@@ -17,6 +17,12 @@ myShoppingcart.addToCart(item2);
 myShoppingcart.printCart();
 
 //lab 6
-console.log("\n\tTotaalbedrag is: " + Math.round(totaal* 100)/100);
+console.log("\n\tTotaalbedrag is: " , Math.round(totaal* 100)/100);
 
-
+// lab 7
+let prijs: number = 0;
+    try{
+        prijs = item1.setPrijs(11);
+    }catch(e){
+         console.log(e.message);
+    }

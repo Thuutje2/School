@@ -32,6 +32,15 @@ var Item = /** @class */ (function () {
     Item.prototype.getTotaal = function () {
         return (this.aantal * this.prijs);
     };
+    //lab 07
+    Item.prototype.setPrijs = function (prijs) {
+        if (this.prijs >= 1 && prijs <= 10) {
+            return this.prijs;
+        }
+        else {
+            throw new Error("\n De prijs is niet correct");
+        }
+    };
     return Item;
 }());
 exports.Item = Item;
